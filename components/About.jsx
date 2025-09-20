@@ -11,7 +11,7 @@ export default function About() {
                         className="w-full lg:max-w-lg xl:max-w-2xl"
                     />
                     <div className="lg:max-w-3xl">
-                        <Title subhead="About" heading="About Me" />
+                        <Title subhead="About" heading="About Me" margin={true} />
                         <p className="mb-6 lg:text-balance lg:text-lg xl:text-xl opacity-60">
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce varius faucibus massa sollicitudin amet augue. Nibh metus a semper purus mauris duis. Lorem eu neque, tristique quis duis. Nibh scelerisque ac adipiscing velit non nulla in amet pellentesque.</p>
 

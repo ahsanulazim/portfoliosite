@@ -34,7 +34,7 @@ export default function Expertise() {
     return (
         <>
             <section className="px-4 py-14 lg:px-14 lg:py-28 max-w-[1920px] mx-auto">
-                <Title heading="My Expertise" subhead="My Skills" />
+                <Title heading="My Expertise" subhead="My Skills" margin={true} />
                 <div className={`${styles.gridContainer} grid gap-6`}>
                     {skills.map((skill) => <ExpertCard key={skill.id} skill={skill} />)}
                 </div>

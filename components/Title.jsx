@@ -1,6 +1,6 @@
-export default function Title({ subhead, heading }) {
+export default function Title({ subhead, heading, margin }) {
     return (
-        <div className="mb-10 sm:mb-14">
+        <div className={margin ? "mb-10 sm:mb-14" : ""}>
             <h3 className="text-sm sm:text-lg">
                 {subhead}
             </h3>
