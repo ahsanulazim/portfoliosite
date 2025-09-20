@@ -23,7 +23,7 @@ export default function Portfolio() {
 
     return (
         <>
-            <section className="px-4 py-14 lg:px-14 lg:py-28 max-w-[1920px] mx-auto">
+            <section className="px-4 py-14 lg:px-14 lg:py-28 max-w-[1920px] mx-auto" id="portfolio">
                 <div className="flex items-start gap-y-5 sm:items-center flex-col sm:flex-row sm:justify-between mb-10 sm:mb-14">
                     <Title subhead="Recent Projects" heading="My Portfolio" margin={false} />
                     <button className="btn btn-secondary rounded-md"><FaDribbble />Visit My Dribbble</button>

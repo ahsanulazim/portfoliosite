@@ -30,7 +30,7 @@ export default function Navbar({ navLinks }) {
           <ul className="menu menu-horizontal px-1">{navLinks}</ul>
         </div>
         <div className="navbar-end">
-          <Link href="#" className="group">
+          <Link href="#contact" className="group">
             <button className="btn btn-outline btn-primary">
               <FaRegEnvelope className="group-hover:hidden transition duration-200" />
               <FaEnvelope className="hidden group-hover:block transition duration-200" />

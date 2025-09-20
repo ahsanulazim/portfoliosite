@@ -3,7 +3,7 @@ import Title from "./Title";
 export default function About() {
     return (
         <>
-            <section className="hero">
+            <section className="hero" id="about">
                 <div className="hero-content justify-between gap-14 flex-col lg:flex-row w-full px-4 py-14 lg:px-14 lg:py-28 max-w-[1920px] mx-auto">
                     <img
                         src="/About Me.png"

@@ -3,6 +3,7 @@ import "./globals.css";
 import Navbar from "@/components/Navbar";
 import Link from "next/link";
 import Dock from "@/components/Dock";
+import Footer from "@/components/Footer";
 
 const robotoSans = Roboto({
   variable: "--font-roboto-sans",
@@ -30,7 +31,7 @@ export default function RootLayout({ children }) {
       </li>
       <li>
         <Link
-          href="#"
+          href="#portfolio"
           className="hover:bg-transparent hover:text-main focus-within:bg-transparent focus-within:text-main"
         >
           Portfolio
@@ -38,7 +39,7 @@ export default function RootLayout({ children }) {
       </li>
       <li>
         <Link
-          href="/"
+          href="#about"
           className="hover:bg-transparent hover:text-main focus-within:bg-transparent focus-within:text-main"
         >
           About Me
@@ -46,7 +47,7 @@ export default function RootLayout({ children }) {
       </li>
       <li>
         <Link
-          href="/"
+          href="#testimonial"
           className="hover:bg-transparent hover:text-main focus-within:bg-transparent focus-within:text-main"
         >
           Testimonials
@@ -78,6 +79,7 @@ export default function RootLayout({ children }) {
             </ul>
           </div>
         </div>
+        <Footer navLinks={navLinks} />
         <Dock />
       </body>
     </html>
