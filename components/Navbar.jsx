@@ -5,7 +5,7 @@ import { FaBarsStaggered, FaEnvelope, FaRegEnvelope } from "react-icons/fa6";
 export default function Navbar({ navLinks }) {
   return (
     <>
-      <div className="navbar bg-base-100 shadow-sm">
+      <header className="navbar bg-white shadow-sm max-w-[1920px] mx-auto lg:px-14">
         <div className="navbar-start">
           <div className="flex-none md:hidden">
             <label
@@ -38,7 +38,7 @@ export default function Navbar({ navLinks }) {
             </button>
           </Link>
         </div>
-      </div>
+      </header>
     </>
   );
 }
