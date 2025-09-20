@@ -1,7 +1,6 @@
 import { GoHome } from "react-icons/go";
 import { HiOutlineBriefcase } from "react-icons/hi2";
-import { FaRegUser } from "react-icons/fa6";
-import { FaRegStar } from "react-icons/fa6";
+import { AiOutlineStar, AiOutlineUser } from "react-icons/ai";
 import Link from "next/link";
 
 export default function Dock() {
@@ -21,13 +20,13 @@ export default function Dock() {
       </Link>
       <Link href="#">
         <button className="flex flex-col items-center gap-y-0.5">
-          <FaRegUser />
+          <AiOutlineUser />
           <span className="dock-label">About Me</span>
         </button>
       </Link>
       <Link href="#">
         <button className="flex flex-col items-center gap-y-0.5">
-          <FaRegStar />
+          <AiOutlineStar />
           <span className="dock-label">Testimonials</span>
         </button>
       </Link>
