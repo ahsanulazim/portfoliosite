@@ -7,6 +7,7 @@
 
   --font-roboto: var(--font-roboto-sans);
   --color-main: #5E3BEE;
+  --color-shade: #F5FCFF;
   --breakpoint-xs: 480px;
 }
 .btn-outline{
